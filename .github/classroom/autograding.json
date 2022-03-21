@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "tests",
+      "setup": "git clone https://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@github.com/TFS22QA/QA_Fullstack_10_tests.git; ls; cp -r QA_Fullstack_10_tests/src . ",
+      "run": "gradle test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
